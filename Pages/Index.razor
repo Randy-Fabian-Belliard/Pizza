@@ -21,7 +21,7 @@
         <div class="col">
             <button class="btn btn-success pl-4 pr-4"
                 @onclick="@(() => AgregarCesta(pizza))">
-                Add
+                Agregar
             </button>
         </div>
     </div>
@@ -47,7 +47,7 @@
             <div class="col">
                 <button class="btn btn-danger"
                 @onclick="@(() => RemoverCesta(pos))">
-                    remove
+                    Quitar
                 </button>
             </div>
         </div>
@@ -100,7 +100,7 @@
     </fieldset>
 </EditForm>
 
-<!--  Entrada deL cliente -->
+<!-- Final de la entrada de cliente -->
 @Estado.ToJson()
 
 @code {

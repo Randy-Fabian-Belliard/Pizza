@@ -8,7 +8,7 @@ namespace PizzaPlace.Shared
     [Key]
     public int Id { get; set; }     
     [Required(ErrorMessage = "Por favor proporcionar un Nombre.")]
-    public string Nombre { get; set; } = default!;
+    public string? Nombre { get; set; } = default!;
 
     [Required(ErrorMessage = "Por favor proporcionar una Calle con su número de casa.")]
     public string Calle { get; set; } = default!;
